@@ -39,7 +39,7 @@
     <div class="orb w-[300px] h-[300px] bg-blue-400/10 top-[40%] right-[5%]" style="animation-delay:6s"></div>
     <div class="orb w-[280px] h-[280px] bg-slate-700/20 bottom-[-60px] left-[-100px]" style="animation-delay:3s"></div>
 
-    <div class="relative z-10 w-full max-w-6xl mx-auto px-6 py-24">
+    <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 py-14 md:py-24">
 
       <!-- Availability Badge -->
       <div class="inline-flex items-center gap-2 badge px-3 py-1.5 rounded-full mb-6 reveal">
@@ -48,28 +48,28 @@
       </div>
 
       <!-- Headline -->
-      <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-[1.05] tracking-tight mb-6 reveal reveal-delay-1">
+      <h1 class="text-[2rem] sm:text-5xl md:text-7xl font-extrabold text-white leading-[1.08] tracking-tight mb-6 reveal reveal-delay-1">
         Strategic M365 Architecture<br/>
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">&amp; SharePoint Engineering</span>
       </h1>
 
       <!-- Subtext -->
-      <p class="text-lg text-slate-400 leading-relaxed mb-10 reveal reveal-delay-2">
+      <p class="text-base md:text-lg text-slate-400 leading-relaxed mb-8 md:mb-10 reveal reveal-delay-2">
         Strategic SharePoint and Microsoft 365 consulting services for enterprise organizations.<br class="hidden md:block"/>
         Providing expert-level architecture and engineering to maximize your Microsoft investment.
       </p>
 
       <!-- CTAs -->
-      <div class="flex flex-wrap gap-4 mb-14 reveal reveal-delay-3">
-        <a href="#contact" class="btn-primary px-7 py-3.5 rounded-xl text-base flex items-center gap-2">
+      <div class="flex flex-col sm:flex-row flex-wrap gap-3 mb-10 md:mb-14 reveal reveal-delay-3">
+        <a href="#contact" class="btn-primary px-7 py-3.5 rounded-xl text-base flex items-center justify-center gap-2">
           Request Strategic Consultation
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
-        <a href="#services" class="btn-outline px-7 py-3.5 rounded-xl text-base">View Services</a>
+        <a href="#services" class="btn-outline px-7 py-3.5 rounded-xl text-base text-center">View Services</a>
       </div>
 
       <!-- Stats row -->
-      <div class="flex flex-wrap gap-4 mb-6 reveal">
+      <div class="grid grid-cols-2 sm:flex sm:flex-wrap gap-3 md:gap-4 mb-6 reveal">
         <div class="stat-pill px-5 py-3 rounded-xl">
           <div class="text-2xl font-bold text-white font-display">15+</div>
           <div class="text-xs text-slate-500 mt-0.5">Years in M365</div>
@@ -101,30 +101,30 @@
   </section>
 
   <!-- SERVICES -->
-  <section id="services" class="py-28 max-w-6xl mx-auto px-6">
-    <div class="mb-16 reveal">
+  <section id="services" class="py-16 md:py-28 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="mb-10 md:mb-16 reveal">
       <div class="badge inline-flex px-3 py-1 rounded-full text-xs mb-5">WHAT I DO</div>
       <div class="line-accent mb-5"></div>
-      <h2 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">Core Services</h2>
-      <p class="text-slate-400 max-w-xl text-lg">Focused engagements that solve real enterprise M365 pain points — security gaps, governance debt, and AI adoption blockers.</p>
+      <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight mb-4">Core Services</h2>
+      <p class="text-slate-400 max-w-xl text-base md:text-lg">Focused engagements that solve real enterprise M365 pain points — security gaps, governance debt, and AI adoption blockers.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-      <!-- Card 1: Tenant Security -->
+      <!-- Card 1: AI Readiness -->
       <div class="glass-card rounded-2xl p-8 reveal">
         <div class="icon-ring mb-6">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">Tenant Security</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6">End-to-end hardening, Entra ID Conditional Access, and threat protection for global M365 environments.</p>
+        <h3 class="text-xl font-bold text-white mb-3">AI Readiness</h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-6">Hardening your data foundation and remediating oversharing for a secure Microsoft 365 Copilot rollout.</p>
         <ul class="space-y-2 text-sm text-slate-500">
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Security Hardening & Baselines</li>
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Entra ID Conditional Access</li>
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Purview & DLP Policies</li>
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Tenant Security Assessments</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Copilot Readiness Assessment</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Data Oversharing Remediation</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Governance Pre-Checks</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Semantic Index Optimization</li>
         </ul>
       </div>
 
@@ -145,8 +145,25 @@
         </ul>
       </div>
 
-      <!-- Card 3: Training, Adoption & Best Practices -->
+      <!-- Card 3: Tenant Security -->
       <div class="glass-card rounded-2xl p-8 reveal reveal-delay-2">
+        <div class="icon-ring mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">Tenant Security</h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-6">End-to-end hardening, Entra ID Conditional Access, and threat protection for global M365 environments.</p>
+        <ul class="space-y-2 text-sm text-slate-500">
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Security Hardening & Baselines</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Entra ID Conditional Access</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Purview & DLP Policies</li>
+          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Tenant Security Assessments</li>
+        </ul>
+      </div>
+
+      <!-- Card 4: Training & Adoption -->
+      <div class="glass-card rounded-2xl p-8 reveal reveal-delay-3">
         <div class="icon-ring mb-6">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z"/>
@@ -163,30 +180,13 @@
         </ul>
       </div>
 
-      <!-- Card 4: AI Readiness -->
-      <div class="glass-card rounded-2xl p-8 reveal reveal-delay-3">
-        <div class="icon-ring mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-bold text-white mb-3">AI Readiness</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6">Hardening your data foundation and remediating oversharing for a secure Microsoft 365 Copilot rollout.</p>
-        <ul class="space-y-2 text-sm text-slate-500">
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Copilot Readiness Assessment</li>
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Data Oversharing Remediation</li>
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Governance Pre-Checks</li>
-          <li class="flex items-center gap-2"><span class="w-1 h-1 rounded-full bg-blue-400"></span>Semantic Index Optimization</li>
-        </ul>
-      </div>
-
     </div>
   </section>
 
   <!-- ABOUT STRIP -->
-  <section id="about" class="border-y border-slate-800 bg-slate-900/40 py-24">
-    <div class="max-w-6xl mx-auto px-6">
-      <div class="grid md:grid-cols-2 gap-16 items-center">
+  <section id="about" class="border-y border-slate-800 bg-slate-900/40 py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
         <div class="reveal">
           <div class="badge inline-flex px-3 py-1 rounded-full text-xs mb-5">ABOUT</div>
           <div class="line-accent mb-5"></div>
@@ -195,24 +195,24 @@
           <p class="text-slate-400 leading-relaxed">Having managed 12,000+ site collections and 10,000+ OneDrives at scale, I understand the friction between security and productivity. I deliver environments that satisfy both C-suite compliance and end-user efficiency.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 reveal reveal-delay-1">
-          <div class="service-card rounded-xl p-5">
-            <div class="text-3xl font-bold text-blue-400 font-display mb-1">SharePoint</div>
+          <div class="service-card rounded-xl p-4 sm:p-5">
+            <div class="text-2xl sm:text-3xl font-bold text-blue-400 font-display mb-1">SharePoint</div>
             <div class="text-xs text-slate-500">Online · On-Prem Migration · PnP</div>
           </div>
-          <div class="service-card rounded-xl p-5">
-            <div class="text-3xl font-bold text-blue-400 font-display mb-1">Copilot</div>
+          <div class="service-card rounded-xl p-4 sm:p-5">
+            <div class="text-2xl sm:text-3xl font-bold text-blue-400 font-display mb-1">Copilot</div>
             <div class="text-xs text-slate-500">M365 · Enablement · Governance</div>
           </div>
-          <div class="service-card rounded-xl p-5">
-            <div class="text-3xl font-bold text-blue-400 font-display mb-1">Purview</div>
+          <div class="service-card rounded-xl p-4 sm:p-5">
+            <div class="text-2xl sm:text-3xl font-bold text-blue-400 font-display mb-1">Purview</div>
             <div class="text-xs text-slate-500">DLP · Sensitivity Labels · Compliance</div>
           </div>
-          <div class="service-card rounded-xl p-5">
-            <div class="text-3xl font-bold text-blue-400 font-display mb-1">Graph API</div>
+          <div class="service-card rounded-xl p-4 sm:p-5">
+            <div class="text-2xl sm:text-3xl font-bold text-blue-400 font-display mb-1">Graph API</div>
             <div class="text-xs text-slate-500">PowerShell · Automation · REST</div>
           </div>
-          <div class="service-card rounded-xl p-5 col-span-2">
-            <div class="text-2xl font-bold text-blue-400 font-display mb-1">Teams · Entra ID · Defender</div>
+          <div class="service-card rounded-xl p-4 sm:p-5 col-span-2">
+            <div class="text-xl sm:text-2xl font-bold text-blue-400 font-display mb-1">Teams · Entra ID · Defender</div>
             <div class="text-xs text-slate-500">Full M365 stack coverage</div>
           </div>
         </div>
@@ -221,12 +221,12 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="py-28 max-w-6xl mx-auto px-6">
-    <div class="grid md:grid-cols-2 gap-16 items-start">
+  <section id="contact" class="py-16 md:py-28 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-start">
       <div class="reveal">
         <div class="badge inline-flex px-3 py-1 rounded-full text-xs mb-5">GET IN TOUCH</div>
         <div class="line-accent mb-5"></div>
-        <h2 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-5">Let's talk about<br/>your environment.</h2>
+        <h2 class="text-3xl md:text-5xl font-bold text-white tracking-tight mb-5">Let's talk about<br/>your environment.</h2>
         <p class="text-slate-400 leading-relaxed mb-10">No sales decks. Just a direct conversation about where your M365 tenant stands and what it needs. Engagements typically start within 1–2 weeks.</p>
         <div class="space-y-4 text-sm text-slate-400">
           <div class="flex items-center gap-3">
@@ -251,7 +251,7 @@
       </div>
 
       <!-- Form -->
-      <div class="service-card rounded-2xl p-8 md:p-10 reveal reveal-delay-1">
+      <div class="service-card rounded-2xl p-5 sm:p-8 md:p-10 reveal reveal-delay-1">
         <form id="contact-form" action="https://formspree.io/f/mreobyly" method="POST" class="space-y-5">
           <div class="grid sm:grid-cols-2 gap-4">
             <div>
