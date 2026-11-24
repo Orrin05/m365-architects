@@ -1,3 +1,8 @@
 node_modules/
 .claude/
 CLAUDE.md
+
+# secrets: never commit (an example file is fine)
+.env
+.env.*
+!.env.example
